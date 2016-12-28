@@ -364,38 +364,10 @@
 		</dependency>
 		<!-- Struts2 Dependency End -->
 
-		<!-- Others Begin -->
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>servlet-api</artifactId>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>jsp-api</artifactId>
-			<scope>provided</scope>
-		</dependency>
+		
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.jsoup</groupId>
-			<artifactId>jsoup</artifactId>
-		</dependency>
-		<!-- Others End -->
-		
-		<!-- Mysql Driver Begin -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-		</dependency>
-		<!-- Mysql Driver End -->
-		
-		<!-- dubbo 需要的jar start -->
-		<dependency>
-			<groupId>org.jboss.netty</groupId>
-			<artifactId>netty</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -406,19 +378,17 @@
 					<artifactId>spring</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-
+		</dependency>		
+		
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
 		</dependency>
-		<!-- dubbo 需要的jar end -->
-
+		
 	</dependencies>
 
 </project>
